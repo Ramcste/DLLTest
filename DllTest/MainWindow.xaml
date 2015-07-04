@@ -1,0 +1,37 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" x:Class="DllTest.MainWindow"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <Button Content="Insert" FontSize="20" HorizontalAlignment="Left" Margin="147,194,0,0" VerticalAlignment="Top" Width="110" Height="33"  Click="Button_Click" RenderTransformOrigin="0.122,0.574"/>
+
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="137,122,0,0" TextWrapping="Wrap" x:Name="NameTextBox" VerticalAlignment="Top" Width="120"/>
+
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="137,65,0,0" TextWrapping="Wrap" x:Name="IdTextBox" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="57,65,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,122,0,0"/>
+
+        <ComboBox HorizontalAlignment="Left" Height="23" Margin="438,65,0,0"  x:Name="IdBox" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="373,65,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,119,0,0"/>
+
+        <Button Content="Udate" FontSize="20" HorizontalAlignment="Left" Margin="438,194,0,0" VerticalAlignment="Top" Width="110" Height="33"  Click="Button_Click_1"/>
+
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="438,119,0,0" TextWrapping="Wrap" x:Name="NameBox" VerticalAlignment="Top" Width="120"/>
+        
+        <DataGrid HorizontalAlignment="Left" Margin="199,302,0,0" VerticalAlignment="Top" Height="90" Width="237"/>
+
+        <Button Content="LoadAll" HorizontalAlignment="Left" Margin="69,274,0,0" VerticalAlignment="Top" Width="75" Height="27"/>
+
+        <custom:RibbonSplitButton Label="SplitButton" Margin="438,260,21,132"  TextBlock.FontSize="20" Click="RibbonSplitButton_Click"/>
+
+                 
+        
+        
+    </Grid>
+</Window>
